@@ -1,0 +1,98 @@
+/*
+Theme Name: BestBuild Child
+Template: bestbuild
+Author: Child Theme Configurator
+Version: 1.0.1450519911
+Updated: 2015-12-19 05:11:51
+*/
+
+@charset "UTF-8";
+
+.top_nav .top_nav_wrapper > ul > li ul,
+.top_nav .main_menu_nav > ul > li ul
+{
+    width: 275px;
+}
+
+.top_nav .top_nav_wrapper input {
+    width: 100% !important;
+    border: 1px solid #cbcbcb;
+}
+
+.top_nav .top_nav_wrapper textarea {
+    width: 100% !important;
+    height: 50px;
+    border: 1px solid #cbcbcb;
+}
+#dd-menu {
+    margin-top: -12px;
+    margin-bottom: 15px;
+    padding: 5px; 
+    height:540px; 
+    background: url('//fastguardservice.com/wp-content/uploads/2016/02/dd-bgd.png');
+}
+
+@media only screen and (max-width: 768px) {
+	.wpcf7-textarea	{
+		width: 22em;
+    	height: 4em;
+	}
+	.wpcf7-list-item label {
+	    width: 11em !important;
+	}
+}
+
+
+
+/*NUEVOS 20190207*/
+#wp-menubar-widgets-3310 {
+    width: 450px;
+    padding: 10px;
+}
+#wp-menubar-widgets-3310 .textwidget {
+    margin-top: 15px;
+}
+#wp-menubar-widgets-3310 label {
+    /*min-height: 33px;*/
+    margin-bottom: 0;
+	width:100%;
+}
+#dd-menu {
+	height: auto;
+	overflow:hidden
+}
+.service-needed > span > span {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.top_nav .top_nav_wrapper .service-needed input {
+    width: auto !important;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 0;
+	margin-left: 5px;
+}
+.service-needed label{
+	display:block;
+	width:100%;
+}
+.service-needed label > span {
+    width: 130px !important;
+    display: inline-block;
+}
+.wpcf7-form .col-md-6 {
+    margin-bottom: 10px;
+}
+.service-title{
+	font-size:16px;	
+}
+.input-group{
+	margin-bottom:15px;
+}
+.wpcf7 textarea{
+	height:140px;
+}
+.select2-container{
+	z-index: 2000000000;
+}
